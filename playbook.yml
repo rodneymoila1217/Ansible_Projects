@@ -1,7 +1,0 @@
-# PowerBroker Playbook.yml
----
-- name: pbis playbook
-  hosts: pb_hosts
-  gather_facts: True
-  roles:
-  - powerbroker_inst
